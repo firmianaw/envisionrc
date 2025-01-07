@@ -4,6 +4,7 @@ import ConditionalGTM from "@/components/ConditionalGTM/ConditionalGTM";
 
 import '@/styles/globals.css';
 import { RootLayout } from "@/components/RootLayout/RootLayout";
+import Title from "@/components/Title/Title";
 
 const dmSans = DM_Sans({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -20,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
       <html lang="en">
         <ConditionalGTM />
-
+        <Title />
         <body
           className={`${dmSans.variable} font-sans`}
         >
