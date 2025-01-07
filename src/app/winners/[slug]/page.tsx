@@ -3,13 +3,14 @@ import { winners } from '@/data/winners';
 import WinnersImage from '@/components/WinnersImage/WinnersImage';
   
 type Props = {
-    params: {
+    params: Promise<{
       slug: string;
-    };
+    }>;
 };
 
-export default async function Page({ params }: Props) {
-    const { slug } = params; 
+export default async function Page(props: Props) {
+    const params = await props.params;
+    const { slug } = params;
 
     const winner = winners[slug as keyof typeof winners];
 
