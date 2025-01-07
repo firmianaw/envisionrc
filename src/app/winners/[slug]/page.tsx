@@ -8,8 +8,8 @@ type Props = {
     };
 };
 
-export default async function Page({ params }: Props) {
-    const { slug } = await params; // Await the params object
+export default function Page({ params }: Props) {
+    const { slug } = params; 
 
     const winner = winners[slug as keyof typeof winners];
 
