@@ -83,18 +83,54 @@ export default function Mission() {
                     <p className="py-2">
                         Learning proposal writing, especially in high school, is important for numerous reasons.
                     </p>
-                    <p className="py-2">
-                        First off, proposal writing is a key skill to successfully applying to grants and attaining funding to conduct research as a scientist. Therefore, without understanding how to write proposals, scientists will neither have the opportunity or resources to conduct any research.
-                    </p>
-                    <p className="py-2">
-                        Second, proposal writing is almost never taught. Instead, scientists learn through trial and error, which means they almost always start writing their first proposal when they need a grant. And, of course, this means that they will make many mistakes along the way, and most likely miss multiple opportunities they could&apos;ve won had they learned earlier.
-                    </p>
-                    <p className="py-2">
-                        Third, writing proposals improves critical planning skills. In order to write a research proposal, scientists must be capable of thoroughly planning their research, expressing what they want to do in a way that seems clear and feasible to the judge and anticipating any and all obstacles they may face. Not only is this skill useful in writing grants, it&apos;s also applicable in numerous ways to day-to-day life.
-                    </p>
-                    <p className="pt-2">
-                        Finally, it practices comprehensive literature review. Literature review is the process of looking through previously published scientific literature to gain insights which may support your proposal. It is a unique skill set which combines the ability to comb through information quickly and the ability to use literature sources. Not only is this useful in proposal-writing, this skill is often also required to write research papers where collecting background information frequently involves literature review.
-                    </p>
+                    <div className="flex flex-row lg:px-8 py-2 space-x-4">
+                        <div className='relative w-8'>
+                            <div className='font-extrabold w-8 h-8 border-3 bg-purple border-purple text-white flex items-center justify-center rounded-full'>
+                                <p>1</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                                Proposal writing is a key skill to successfully applying to grants and attaining funding to conduct research as a scientist. Therefore, without understanding how to write proposals, scientists will neither have the opportunity or resources to conduct any research.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-row lg:px-8 py-2 space-x-4">
+                        <div className='relative w-8'>
+                            <div className='font-extrabold w-8 h-8 border-3 bg-purple border-purple text-white flex items-center justify-center rounded-full'>
+                                <p>2</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                                Proposal writing is almost never taught. Instead, scientists learn through trial and error, which means they almost always start writing their first proposal when they need a grant. And, of course, this means that they will make many mistakes along the way, and most likely miss multiple opportunities they could&apos;ve won had they learned earlier.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-row lg:px-8 py-2 space-x-4">
+                        <div className='relative w-8'>
+                            <div className='font-extrabold w-8 h-8 border-3 bg-purple border-purple text-white flex items-center justify-center rounded-full'>
+                                <p>3</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                                Writing proposals improves critical planning skills. In order to write a research proposal, scientists must be capable of thoroughly planning their research, expressing what they want to do in a way that seems clear and feasible to the judge and anticipating any and all obstacles they may face. Not only is this skill useful in writing grants, it&apos;s also applicable in numerous ways to day-to-day life.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-row lg:px-8 py-2 space-x-4">
+                        <div className='relative w-8'>
+                            <div className='font-extrabold w-8 h-8 border-3 bg-purple border-purple text-white flex items-center justify-center rounded-full'>
+                                <p>4</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                                Proposal writing practices comprehensive literature review. Literature review is the process of looking through previously published scientific literature to gain insights which may support your proposal. It is a unique skill set which combines the ability to comb through information quickly and the ability to use literature sources. Not only is this useful in proposal-writing, this skill is often also required to write research papers where collecting background information frequently involves literature review.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
        </div>

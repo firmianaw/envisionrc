@@ -36,7 +36,7 @@ export default function HowToCompete() {
           Additionally, interesting topics are provided by ENVISION&apos;s writing team in ENVISION&apos;s blog articles.
         </p>
         <p className="pb-2">
-          Once you have narrowed your ideas down a certain topic, such as use STEM cell transplants or machine learning for speech recognition, you can consult review papers or continue reading literature until you discover a challenge, an under-investigated area, suggestions for a new application of the topic, or another appropriate reason to conduct further research in that area. As you do so, be sure to also take note of methods or approaches used in published research to help you design your experiment.
+          Once you have narrowed your ideas down a certain topic, such as such as stem cell transplants or using machine learning for speech recognition, you can consult review papers or continue reading literature until you discover a challenge, an under-investigated area, suggestions for a new application of the topic, or another appropriate reason to conduct further research in that area. As you do so, be sure to also take note of methods or approaches used in published research to help you design your experiment.
         </p>
         <p className="pb-2">
           At this point, you may select your entry category in the competition portal. If you are unsure what to select, you may consult the descriptions in <Link href='/compete/entry-categories' target="_blank" className='underline underline-offset-4 decoration-solid hover:decoration-wavy'>Entry Categories</Link>.
@@ -57,7 +57,7 @@ export default function HowToCompete() {
           Step 4: Writing, Editing, and Submission
         </p>
         <p className="pb-2">
-          Writing the proposal is the easiest part of the project. If you are working in a group, you may delegate the writing to one person for consistency or have each person write one section. While proposals do not have to be in third person, it is necessary to maintain a mature, scientific voice, comparable to the published papers and reviews you may have read throughout the course of the project.
+          If you are working in a group, you may delegate the writing to one person for consistency or have each person write one section. While proposals do not have to be in third person, it is necessary to maintain a mature, scientific voice, comparable to the published papers and reviews you may have read throughout the course of the project.
         </p>
         <p className="pb-2">
           Carefully line-editing the proposal is important as a single typo may shatter the professionalism of the entry. Be sure to read thoroughly for grammatical errors. You may share your writing with non-team members, friends, and parents to proofread. Additionally, be sure to double-check that the format of your document fulfills the requirements listed in <Link href='/compete/entry-requirements' target="_blank" className='underline underline-offset-4 decoration-solid hover:decoration-wavy'>Entry Requirements</Link>.

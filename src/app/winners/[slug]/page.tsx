@@ -30,14 +30,26 @@ export default async function Page(props: Props) {
                     <p className="text-lg font-bold pb-2">
                         {`${winner.firstPlace.name}: "${winner.firstPlace.title}"`}
                     </p>
-                    <p>
-                    {`Abstract: ${winner.firstPlace.abstract}`}
-                    </p>
 
                     {winner.firstPlace.src !== "" && 
-                    <div className="py-8 justify-center flex">
-                        <WinnersImage src={winner.firstPlace.src} />
-                    </div>
+                        <div className='flex items-start pb-4 space-x-4'>
+                            <p>
+                            {`Abstract: ${winner.firstPlace.abstract}`}
+                            </p>
+
+                            <div className='flex-shrink-0'>
+                                <WinnersImage src={winner.firstPlace.src} />
+                            </div>
+                        </div> 
+                    }
+
+                    {
+                        winner.firstPlace.src === "" &&
+                        <div className='pb-4'>
+                            <p>
+                            {`Abstract: ${winner.firstPlace.abstract}`}
+                            </p>
+                        </div>
                     }
 
                     <p className="text-2xl font-bold pt-4 pb-2">
@@ -46,13 +58,25 @@ export default async function Page(props: Props) {
                     <p className="text-lg font-bold pb-2">
                         {`${winner.secondPlace.name}: "${winner.secondPlace.title}"`}
                     </p>
-                    <p>
-                        {`Abstract: ${winner.secondPlace.abstract}`}
-                    </p>
 
                     {winner.secondPlace.src !== "" && 
-                        <div className="py-8 justify-center flex">
-                            <WinnersImage src={winner.secondPlace.src} />
+                        <div className='flex items-start pb-4 space-x-4'>
+                            <div className='flex-shrink-0'>
+                                <WinnersImage src={winner.secondPlace.src} />
+                            </div>
+                            
+                            <p>
+                            {`Abstract: ${winner.secondPlace.abstract}`}
+                            </p>
+                        </div> 
+                    }
+
+                    {
+                        winner.secondPlace.src === "" &&
+                        <div className='pb-4'>
+                            <p>
+                            {`Abstract: ${winner.secondPlace.abstract}`}
+                            </p>
                         </div>
                     }
 
@@ -62,13 +86,25 @@ export default async function Page(props: Props) {
                     <p className="text-lg font-bold pb-2">
                         {`${winner.thirdPlace.name}: "${winner.thirdPlace.title}"`}
                     </p>
-                    <p>
-                        {`Abstract: ${winner.thirdPlace.abstract}`}
-                    </p>
                     
                     {winner.thirdPlace.src !== "" && 
-                        <div className="pt-8 flex justify-center">
-                            <WinnersImage src={winner.thirdPlace.src} />
+                        <div className='flex items-start pb-4 space-x-4'>
+                            <p>
+                            {`Abstract: ${winner.thirdPlace.abstract}`}
+                            </p>
+
+                            <div className='flex-shrink-0'>
+                                <WinnersImage src={winner.thirdPlace.src} />
+                            </div>
+                        </div> 
+                    }
+
+                    {
+                        winner.thirdPlace.src === "" &&
+                        <div className='pb-4'>
+                            <p>
+                            {`Abstract: ${winner.thirdPlace.abstract}`}
+                            </p>
                         </div>
                     }
                 </div>
