@@ -16,15 +16,15 @@ export default function Landing() {
                     A research proposal <br></br>competition for <br></br>high school students.
                 </p>
                 <div className="flex flex-col space-y-4 text-center items-center">
-                    <Button 
+                    <Link href='/competition-portal'>
+                        <Button 
                         size="lg" 
                         radius="lg"
                         className="font-bold w-32 bg-white"
-                    >
-                        <Link href='/competition-portal'>
+                        >
                         Submit today
-                        </Link>
-                    </Button>
+                        </Button>
+                    </Link>
                     <Link href="https://forms.gle/hihMCRPZfLsJcNfY6" target="_blank" className="text-white underline underline-offset-4 decoration-solid hover:decoration-wavy">
                         Sign up for reminders
                     </Link>
