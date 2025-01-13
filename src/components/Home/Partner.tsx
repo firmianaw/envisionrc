@@ -23,19 +23,19 @@ export default function Partner() {
                     size="md" 
                     radius="md"
                     className="font-bold w-44 bg-lightPurple"
+                    as="a"
+                    href='/about-us/corporate-partners'
                 >
-                    <Link href='/about-us/corporate-partners'>
                     Sponsor ENVISION
-                    </Link>
                 </Button>
                 <Button 
-                        size="md" 
-                        radius="md"
-                        className="font-bold w-52 bg-purple text-white"
-                    >
-                        <Link href='/about-us/organization-partners'>
-                        Partner with ENVISION
-                        </Link>
+                    size="md" 
+                    radius="md"
+                    className="font-bold w-52 bg-purple text-white"
+                    as="a"
+                    href='/about-us/organization-partners'
+                >
+                    Partner with ENVISION
                 </Button>
             </div>
         </div>
