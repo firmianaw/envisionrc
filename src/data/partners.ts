@@ -8,6 +8,7 @@ export const partners = [
         { key: 'lemons_and_life', label: 'Lemons and Life', handle: 'NA' },
       ],
       corporatePartners: [
+        { key: 'jane_street', label: 'Jane Street', handle: 'NA'},
         { key: 'leuchtturm1917', label: 'LEUCHTTURM1917', handle: 'NA' },
         { key: 'jetpens', label: 'JetPens', handle: 'NA' },
         { key: 'balsamiq', label: 'Balsamiq', handle: 'NA' },
