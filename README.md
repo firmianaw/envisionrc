@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) built for the ENVISION Research Competition.
+This is a [Next.js](https://nextjs.org) project built for the ENVISION Research Competition.
 
 ## Getting Started
 
