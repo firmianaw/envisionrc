@@ -20,7 +20,9 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
       <html lang="en">
-        <ConditionalGTM />
+        <head>
+          <ConditionalGTM />
+        </head>
         <Title />
         <body
           className={`${dmSans.variable} font-sans`}

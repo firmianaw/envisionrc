@@ -11,15 +11,14 @@ export default function ConditionalGTM() {
 
     return (
         <>
-            <Script
-                strategy="afterInteractive"
-                src="https://www.googletagmanager.com/gtag/js?id=AW-11533371948"
-                async
+            <Script 
+            strategy="afterInteractive" 
+            src="https://www.googletagmanager.com/gtag/js?id=AW-11533371948" 
+            async
             />
-
-            <Script
-            id="script"
-                strategy="afterInteractive"
+            <Script 
+                id='google-analytics'
+                strategy="afterInteractive" 
                 dangerouslySetInnerHTML={{
                 __html: `
                     window.dataLayer = window.dataLayer || [];
