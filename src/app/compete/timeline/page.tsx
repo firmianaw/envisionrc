@@ -17,7 +17,7 @@ export default function Timeline() {
           <b>January 31, 2025:</b> ENVISION 2024 judging begins on this date.
         </p>
         <p className="pb-2">
-          <b>March 8, 2025:</b> ENVISION 2024 category winners and runner-ups are announced. Virtual awards ceremony.
+          <b>March 16, 2025:</b> ENVISION 2024 category winners and runner-ups are announced. Virtual awards ceremony.
         </p>
         <p>
           <b>June 1, 2025:</b> ENVISION 2025 starts accepting entries.
