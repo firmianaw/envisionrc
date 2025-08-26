@@ -79,6 +79,21 @@ export default function Slideshow() {
                             </p>
                         </div>
                     </div>
+                    <div className='flex flex-row space-x-4 w-full'>
+                        <div className='relative w-8'>
+                            <div className='font-extrabold w-8 h-8 border-3 border-purple text-purple bg-transparent inline-flex items-center justify-center rounded-full'>
+                                <p>4</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p className='font-extrabold text-lg'>
+                                Winners will be announced and may have the opportunity to carry out their research project with Harvard teammates.
+                            </p>
+                            <p>
+                                The top 3 submissions for ENVISION will be reviewed by the GAMI team and may be offered the opportunity to carry out their research project with GAMI funding or Harvard teammates.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 

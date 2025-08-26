@@ -5,6 +5,7 @@ import SecondaryNavbar from "./SecondaryNavbar";
 import { links } from '../../data/links';
 import Link from "next/link";
 import { useState } from "react";
+import TertiaryNavbar from "./TertiaryNavbar";
 
 export const ENVISIONLogo = () => {
     return (
@@ -17,7 +18,7 @@ export default function NavBar() {
 
     return (
         <div className="sticky top-0 z-20">
-            
+            <TertiaryNavbar />
             <SecondaryNavbar /> 
             <Navbar 
                 onMenuOpenChange={setIsMenuOpen} 
