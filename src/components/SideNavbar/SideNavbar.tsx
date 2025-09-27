@@ -11,7 +11,7 @@ interface SidebarProps {
 export default function SideNavbar( {section, links}: SidebarProps ) {
 
   return (
-    <div className="self-start sticky top-32 rounded-xl lg:w-56 w-full drop-shadow-xl border border-neutral-100 bg-white bg-opacity-95 px-2 pt-4 pb-2">
+    <div className="self-start sticky top-48 rounded-xl lg:w-56 w-full drop-shadow-xl border border-neutral-100 bg-white bg-opacity-95 px-2 pt-4 pb-2">
       <p className="font-bold pb-2 px-2">{section}</p>
 
       {links.map((link, index) => (

@@ -4,6 +4,7 @@ export const links = [
       items: [
         { key: 'mission', label: 'Mission' },
         { key: 'privacy-policy', label: 'Privacy Policy' },
+        { key: 'partnership-with-harvard-gami', label: 'Partnership with Harvard GAMI' },
         { key: 'organization-partners', label: 'Organization Partners' },
         { key: 'corporate-partners', label: 'Corporate Partners' },
         { key: 'merchandise', label: 'Merchandise' },

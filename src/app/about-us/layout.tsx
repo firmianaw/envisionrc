@@ -6,6 +6,7 @@ export default function AboutUsLayout({ children }: { children: ReactNode }) {
   const aboutUsLinks = [
     "Mission",
     "Privacy Policy",
+    "Partnership with Harvard GAMI",
     "Organization Partners",
     "Corporate Partners",
     "Merchandise"
