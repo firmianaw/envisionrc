@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function TertiaryNavbar() {
     return (
         <div className="bg-purple text-white py-2 px-6 xl:px-60 text-sm flex items-center gap-2">
-            <p> ENVSION Research Competition is hosted in collaboration with <Link
+            <p> <b>ENVSION Research Competition</b> is hosted in collaboration with <Link
                     href='https://www.harvardgami.com/'
                     target="_blank"
-                    className="underline-offset-4 hover:underline"
+                    className="underline-offset-4 hover:underline font-bold"
                 >
                     Harvard Global Alliance for Medical Innovation (GAMI)
-                </Link>
+                </Link>.
             </p>
             <Image 
                 src="/GAMI_Logo_White.png" 
